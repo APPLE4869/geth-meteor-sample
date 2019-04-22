@@ -1,0 +1,11 @@
+以下のサイトのチュートリアルで作成したコード。
+https://book.ethereum-jp.net/meteor_dapp/about_meteor.html
+
+以下のリポジトリでgethを起動した状態で利用する。
+https://github.com/APPLE4869/geth-docker-sample
+
+起動コマンド例
+
+```
+geth --networkid "10" --nodiscover --datadir "/app/eth_private_net" --mine --unlock 0x9b76a121ad6c540d90305996cb1f237b0b1740d3 --rpc --rpcaddr "127.0.0.1" --rpcport "8545" --rpccorsdomain "*" console 2>> /app/eth_private_net/geth_err.log
+```
